@@ -6,3 +6,67 @@
 }
 
 /* #endregion common */
+
+/* #debug */
+.debug *{
+    border: 1px dashed;
+}
+.debug header{
+    ;
+}
+
+/* #endregion debug */
+
+/* #utilities */
+:root{
+    --boolando-header: #ff6900;
+    --boolando-white: #ffffff;
+    --boolando-sostenibile: #008000;
+    --boolando-discount: #ff0000;
+    --boolando-black: #1a1a1a
+}
+.container{
+    width:80%;
+    margin:auto;
+
+}
+.d-flex{
+    display: flex;
+}
+/* #endregion utilities */
+
+/* #header */
+#app_header{
+    padding: 2rem 0;
+    background-color: var(--boolando-header);
+            
+    .main_menu .icon{
+        width:30% ;
+     }
+     .main_menu{
+            ul{
+                list-style: none;
+                display: flex;
+                flex-grow: start;
+                justify-content: space-between;
+                
+                
+                
+                }
+            }
+     }
+     .icon {
+        text-align: end;
+        justify-content: center
+     };
+     
+    .logo{
+        width:40%;
+        text-align:center;
+        
+        
+    }
+    
+}
+
+/* #endregion header */
