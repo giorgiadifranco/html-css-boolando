@@ -9,7 +9,7 @@
 
 /* #debug */
 .debug *{
-    border: 1px dashed;
+    /border: 1px dashed;
 }
 .debug header{
     ;
@@ -26,6 +26,8 @@
     --boolando-black: #1a1a1a
 }
 .container{
+    display: flex;
+    justify-content: space-between;
     width:80%;
     margin:auto;
 
@@ -33,22 +35,34 @@
 .d-flex{
     display: flex;
 }
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    
+}
 /* #endregion utilities */
 
 /* #header */
 #app_header{
-    padding: 2rem 0;
+    padding: 3rem 0;
     background-color: var(--boolando-header);
             
     .main_menu .icon{
         width:30% ;
      }
      .main_menu{
+        justify-content: space-around;
+                  
             ul{
                 list-style: none;
                 display: flex;
-                flex-grow: start;
                 justify-content: space-between;
+                
+                a{
+                    color: var(--boolando-white)
+                }
                 
                 
                 
@@ -58,15 +72,20 @@
      .icon {
         text-align: end;
         justify-content: center
-     };
-     
-    .logo{
-        width:40%;
+     }
+     .logo{
+        display: flex;
+        justify-content: center;
+        width: 40%;
         text-align:center;
-        
+        .logo_img{
+            width: 25%;
+            margin:5px;
+        }
+    
         
     }
     
-}
+
 
 /* #endregion header */
