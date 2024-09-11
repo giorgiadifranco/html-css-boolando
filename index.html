@@ -9,8 +9,8 @@
 </head>
 <body class="debug">
     <header id="app_header">
-        <div class="container d-flex">
-            <nav class="main_menu">
+        <div class="container d-flex justify-content-between">
+            <nav class="main_menu"><!--è possibile togliere le list-->
                     <ul class="unlisted">
                         <li><a href="#" class=btn> Donna</a></li>
                         <li><a href="#" class=btn> Uomo</a></li>
@@ -26,7 +26,7 @@
             </div>
            <!--logo-->
             <div class="icon">
-                <span><i class="fa-regular fa-user"></i></span>
+                <span><i class="fa-regular fa-user"></i></span> <!--trasformare in a-->
                 <span><i class="fa-regular fa-heart"></i></span>
                 <span><i class="fa-solid fa-bag-shopping"></i></span>
                 <!--div per ogni icona?-->
@@ -37,51 +37,71 @@
    <!--header--> 
 
     <main id="app_main">
-        <div class="container d-flex">
-        <div class="single_product">
-            <img src="./img/1.webp">
-            <div class="favorite">&hearts;</div> 
-            <div class="discount"> -50% </div>
-            <div class="sostenibile"></div>
-            <div class="details">
-                <h4 class="brand">Lorem </h4>
-                <h3 class="name_model">Lorem, ipsum dolor.</h3>
-                <h4 class="discount_price">14,99 &euro;</h4>
-                <h4 class="normal_price">29,99 &euro;</h4>
-            </div>
-            <div class="single_product">
-                <img src="./img/2.webp">
-                <div class="favorite">&hearts;</div> 
-                <div class="discount"> -50% </div>
-                <div class="sostenibile"></div>
-                <div class="details">
-                    <h4 class="brand">Lorem </h4>
-                    <h3 class="name_model">Lorem, ipsum dolor.</h3>
-                    <h4 class="discount_price">14,99 &euro;</h4>
-                    <h4 class="normal_price">29,99 &euro;</h4>
-                </div>
-                <div class="single_product">
-                    <img src="./img/3.webp">
-                    <div class="favorite">&hearts;</div> 
-                    <div class="discount"> -50% </div>
-                    <div class="sostenibile"></div>
-                    <div class="details">
-                        <h4 class="brand">Lorem </h4>
-                        <h3 class="name_model">Lorem, ipsum dolor.</h3>
-                        <h4 class="discount_price">14,99 &euro;</h4>
-                        <h4 class="normal_price">29,99 &euro;</h4>
+        <section class="product">
+            <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="images">
+                            <img class="front" src="./img/1.webp">
+                            <img class="back" src="./img/1b.webp">
+                        </div>                                   
                     </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="images">
+                            <img class="front" src="./img/1.webp">
+                            <img class="back" src="./img/1b.webp">
+                        </div>                                   
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="images">
+                            <img class="front" src="./img/1.webp">
+                            <img class="back" src="./img/1b.webp">
+                        </div>                                   
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="images">
+                            <img class="front" src="./img/1.webp">
+                            <img class="back" src="./img/1b.webp">
+                        </div>                                   
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="images">
+                            <img class="front" src="./img/1.webp">
+                            <img class="back" src="./img/1b.webp">
+                        </div>                                   
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="images">
+                            <img class="front" src="./img/1.webp">
+                            <img class="back" src="./img/1b.webp">
+                        </div>                                   
+                    </div>
+                </div>
             </div>
-        
+        </div>
+        </section>
             
             <!--img-->
             
             </div>
         </div>
-        </div>
+        
     </main>
     <!--main-->
-    <footer></footer>
+    <footer>
+
+    </footer>
     <!--footer-->
 </body>
 </html>

@@ -26,14 +26,28 @@
     --boolando-black: #1a1a1a
 }
 .container{
-    display: flex;
-    justify-content: space-between;
+    
     width:80%;
     margin:auto;
 
 }
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    /*margin:0 -1rem; */
+}
+.col-4{
+    width: calc((100%/12)*4);
+    padding:0.5rem;
+}
 .d-flex{
     display: flex;
+}
+.justify-content-between{
+
+}
+body{
+    font-family: ;
 }
 img{
     max-width: 100%;
@@ -45,15 +59,18 @@ a{
 /* #endregion utilities */
 
 /* #header */
+
+header{
+
+}
 #app_header{
-    position:fixed;
-    padding: 3rem 0;
+    padding: 1rem 0;
     background-color: var(--boolando-header);
-    z-index: 4;
-            
+    z-index: ;
     .main_menu .icon{
         width:30% ;
-     }
+     }      
+   
      .main_menu{
         justify-content: space-around;
                   
@@ -61,6 +78,7 @@ a{
                 list-style: none;
                 display: flex;
                 justify-content: space-between;
+                
                 
                 a{
                     color: var(--boolando-white)
@@ -94,21 +112,21 @@ a{
 /* #endregion header */
 /* #region_main */
 #app_main{
-    display: flex;
-    
-    .single_product{
-        display: flex
+   
+        
+    .card{
+        display: flex;
         width:;
         flex-wrap: wrap;
         img{
             width:35%;
         position: relative;
+        float: ;
     }
 
       
         
         .favorite{
-            position: absolute;
             bottom: 1.5rem;
             background-color: var(--boolando-white);
             padding:10px;
