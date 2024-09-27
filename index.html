@@ -9,8 +9,8 @@
 </head>
 <body class="debug">
     <header id="app_header">
-        <div class="container d-flex justify-content-between">
-            <nav class="main_menu"><!--è possibile togliere le list-->
+        <div class="rowheader d-flex">
+            <nav class="col-4 main_menu"><!--è possibile togliere le list-->
                     <ul class="unlisted">
                         <li><a href="#" class=btn> Donna</a></li>
                         <li><a href="#" class=btn> Uomo</a></li>
@@ -18,17 +18,17 @@
                     </ul>
             </nav>
         <!--main menu-->
-           <div class="logo">
-            <div class="logo_img">
+           <div class="col-4 logo">
             
-            <img src="./img/boolean-logo.png">
-            </div>
+            
+            <img class=logo_img src="./img/boolean-logo.png">
+            
             </div>
            <!--logo-->
-            <div class="icon">
-                <span><i class="fa-regular fa-user"></i></span> <!--trasformare in a-->
-                <span><i class="fa-regular fa-heart"></i></span>
-                <span><i class="fa-solid fa-bag-shopping"></i></span>
+            <div class="col-4 icon">
+                <a href="#"><i class="fa-regular fa-user"></i></a> <!--trasformare in a-->
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
                 <!--div per ogni icona?-->
             </div>
             <!--icon-->
@@ -50,6 +50,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card">
+                        <!--div class="like"> inserire cuore</div-->
                         <div class="images">
                             <img class="front" src="./img/1.webp">
                             <img class="back" src="./img/1b.webp">
